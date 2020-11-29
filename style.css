@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://www.fue.edu.eg/ImageHandler.ashx?Id=64);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: black;
+}
+
+.title{
+    text-align: center;
+
+}
+ul{
+    list-style-type: none;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li{
+    float: left;
+}
+.a{
+    text-decoration: none;
+    color: #008CBA;
+}
+
+.li a{
+    display: block;
+    color: #666666;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+li a:hover{
+    color: white;
+    background-color: #dddddd;
+}
+
+li a.active{
+    background-color: rgb(76,175,80);
+    color: white;
+}
+
+.nav-right{
+    float: right;
+}
+
+div{
+    border: 3px solid;
+    /*border-radius: 15px;*/
+    border-style: dotted;
